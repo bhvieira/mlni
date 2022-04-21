@@ -4,7 +4,7 @@ import os, pickle
 from sklearn.model_selection import StratifiedKFold, StratifiedShuffleSplit, KFold, ShuffleSplit
 from sklearn.cluster import KMeans
 from sklearn.metrics import adjusted_rand_score, accuracy_score
-from sklearn.metrics.ranking import roc_auc_score
+from sklearn.metrics import roc_auc_score
 from sklearn.svm import SVC
 from joblib import dump
 import pandas as pd
